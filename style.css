@@ -1,0 +1,182 @@
+body {
+  background: lightgrey;
+  font-family: arial;
+  text-align: center;
+  padding: 40px 80px;
+  margin: 20px 70px;
+}
+
+h1 {
+  color: #f3c623;
+  font-size: 34px;
+  font-family:'Special Elite', cursive;
+}
+
+h2, h3, h4 {
+	color: #127681;
+  font-size: 24px;
+  font-family: 'Special Elite', cursive;
+  text-align: center;
+}
+
+p, ul, ol {
+  font-size: 18px;
+  text-align: left; 
+  color: black;
+  padding: 40px 80px;
+  margin: 20px 70px;
+}
+
+img {
+  width: 500px;
+  height: 500px;
+  object-fit: cover;
+}
+
+a:hover {
+  color: #10375c;
+  text-align: center
+}
+
+a, a:hover {
+  text-decoration: none;
+  font-size: 15px;
+}
+
+div#ifram {
+	text-align:center;
+}
+
+div {
+ background: #f4f6ff;
+ margin: 20px 100px;
+ border-radius: 5px;
+ padding: 30px 70px;
+ box-shadow: 5px 5px 10px grey;
+}
+
+
+ .production1 {
+ 	display: inline-block;
+  justify-content: space-between;
+  width: 400px;
+  height: 400px;
+ }
+
+  .production2 {
+ 	display: inline-block;
+  justify-content: space-between;
+  width: 400px;
+  height: 400px;
+ }
+
+.my-btn {
+  display: inline-block;
+  color: white;
+  background: #f3c623;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.my-btn:hover {
+  color: white;
+  opacity: 0.8;
+}
+
+.logo { 
+	height: 150px;
+	width: 150px; 
+}
+
+.my-navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #f3c623;
+  width: 100%;
+  
+}
+
+.links {
+  display: flex;
+  justify-content: flex-end;
+  background: #127681
+}
+
+.link {
+  margin: 10px 30px;
+  color: black;
+}
+
+.link:hover {
+  color: #f4f6ff;
+}
+
+.close {
+  display: inline-block;
+  color: white;
+  background: #f3c623;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.close:hover {
+  color: white;
+  opacity: 0.8;
+
+
+
+
+.footer-copyrigh {
+  background: #f3c623;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100px;
+  padding: 0px 50px;
+  color: rgba(0,0,0,0.3);
+}
+.footer-links {
+  display: flex;
+  align-items: center;
+}
+.footer-links a {
+  color: black;
+  opacity: 0.15;
+  text-decoration: none;
+  font-size: 24px;
+  padding: 0px 10px;
+}
+.footer-links a:hover {
+  opacity: 1;
+}
+.footer .fa-heart {
+  color: #D23333;
+}
+
+
+.banner {
+  background-size: cover;
+  background-position: center;
+  padding: 150px 0;
+}
+
+.banner h1 {
+  margin: 0;
+  color: #127681;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.banner p {
+  font-size: 20px;
+  color: #127681;
+  opacity: .7;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+}
+
